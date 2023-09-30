@@ -28,11 +28,13 @@ async function run() {
     try {
 
         // mongodb collections
-        const corseCollections = client.db('Learn_skill_hub_server').collection('Courses')
+        const courseCollection = client.db('Learn_skill_hub_server').collection('Courses');
+        const userCollection = client.db('Learn_skill_hub_server').collection('users');
+        const enrolledCourseCollection = client.db('Learn_skill_hub_server').collection('enrolledCourses')
 
         // all course getting
         app.get('/courses', async(req, res) => {
-            const result = await corseCollections.find().toArray();
+            const result = await courseCollection.find().toArray();
             res.send(result)
         })
 
@@ -41,7 +43,22 @@ async function run() {
             const id = req.params.id;
             // console.log(id)
             const filter = {_id: new ObjectId(id)}
-            const result = await corseCollections.findOne(filter);
+            const result = await courseCollection.findOne(filter);
+            res.send(result)
+        })
+
+        // create user
+        app.post('/users', async(req, res)=> {
+            const userInfo = req.body;
+            const result = await userCollection.insertOne(userInfo);
+            res.send(result)
+        })
+
+        // enrolled courses
+        app.post('/enrolled-course', async(req, res)=> {
+            const courseInfo = req.body;
+            // console.log(courseInfo)
+            const result = await enrolledCourseCollection.insertOne(courseInfo);
             res.send(result)
         })
 
