@@ -38,6 +38,13 @@ async function run() {
             res.send(result)
         })
 
+        // post course
+        app.post('/courses', async(req, res)=> {
+            const courseInfo = req.body;
+            const result = await courseCollection.insertOne(courseInfo);
+            res.send(result)
+        })
+
         // getting specific course
         app.get('/courses/:id', async(req, res)=> {
             const id = req.params.id;
@@ -55,10 +62,16 @@ async function run() {
         })
 
         // enrolled courses
-        app.post('/enrolled-course', async(req, res)=> {
+        app.post('/enrolled-courses', async(req, res)=> {
             const courseInfo = req.body;
             // console.log(courseInfo)
             const result = await enrolledCourseCollection.insertOne(courseInfo);
+            res.send(result)
+        })
+
+        // get enrolled courses
+        app.get('/enrolled-courses', async(req, res)=> {
+            const result = await enrolledCourseCollection.find().toArray();
             res.send(result)
         })
 

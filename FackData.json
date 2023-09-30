@@ -2,6 +2,7 @@
     {
       "Course_name": "Course 1",
       "Course_pic": "https://i.ibb.co/FxZ1fvV/3.jpg",
+      "default_video_link": "https://www.youtube.com/embed/UESRAGLV6vk?si=YKO-L-9PVPdloXoN",
       "Instructor_name": "Instructor 1",
       "Instructor_pic": "https://i.ibb.co/HXSQGtP/1.jpg",
       "Category": "Category 1",
@@ -9,15 +10,21 @@
       "rating": 4.5,
       "Course_details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum lectus ut varius.",
       "Course_syllabus": [
-        "Introduction to the Course",
-        "Module 1: Getting Started",
-        "Module 2: Advanced Topics",
-        "Module 3: Final Project"
+        {"title": "Introduction to the Course",
+         "video_link": "https://www.youtube.com/embed/13UZJbaVSSE?si=vuqbszb4ETG85-R6"
+        },
+        {"title": "Module 1: Getting Started",
+         "video_link": "https://www.youtube.com/embed/S5gcMwh8ayI?si=rsSwTHEldzFGeZC1"
+        },
+        {"title": "Module 2: Advanced Topics",
+         "video_link": "https://www.youtube.com/embed/CnGJggO6_l4?si=77x5CVLsDw-C2xMM"
+        }
       ]
     },
     {
       "Course_name": "Course 2",
       "Course_pic": "https://i.ibb.co/ChP5HgV/4.jpg",
+      "default_video_link": "https://www.youtube.com/embed/UESRAGLV6vk?si=YKO-L-9PVPdloXoN",
       "Instructor_name": "Instructor 2",
       "Instructor_pic": "https://i.ibb.co/nPp7QQf/5.jpg",
       "Category": "Category 2",
@@ -25,15 +32,21 @@
       "rating": 4.8,
       "Course_details": "Suspendisse potenti. Sed sit amet dapibus velit.",
       "Course_syllabus": [
-        "Introduction to Course 2",
-        "Module 1: Basics",
-        "Module 2: Advanced Techniques",
-        "Module 3: Practical Applications"
+        {"title": "Introduction to the Course",
+         "video_link": "https://www.youtube.com/embed/13UZJbaVSSE?si=vuqbszb4ETG85-R6"
+        },
+        {"title": "Module 1: Getting Started",
+         "video_link": "https://www.youtube.com/embed/S5gcMwh8ayI?si=rsSwTHEldzFGeZC1"
+        },
+        {"title": "Module 2: Advanced Topics",
+         "video_link": "https://www.youtube.com/embed/CnGJggO6_l4?si=77x5CVLsDw-C2xMM"
+        }
       ]
     },
     {
       "Course_name": "Course 3",
       "Course_pic": "https://i.ibb.co/jw8RnPC/3.jpg",
+      "default_video_link": "https://www.youtube.com/embed/UESRAGLV6vk?si=YKO-L-9PVPdloXoN",
       "Instructor_name": "Instructor 3",
       "Instructor_pic": "https://i.ibb.co/FxZ1fvV/3.jpg",
       "Category": "Category 1",
@@ -41,10 +54,15 @@
       "rating": 4.2,
       "Course_details": "Fusce nec justo et odio accumsan vestibulum. Vivamus suscipit orci et elit tincidunt.",
       "Course_syllabus": [
-        "Introduction to the Course",
-        "Module 1: Getting Started",
-        "Module 2: Advanced Topics",
-        "Module 3: Final Project"
+        {"title": "Introduction to the Course",
+         "video_link": "https://www.youtube.com/embed/13UZJbaVSSE?si=vuqbszb4ETG85-R6"
+        },
+        {"title": "Module 1: Getting Started",
+         "video_link": "https://www.youtube.com/embed/S5gcMwh8ayI?si=rsSwTHEldzFGeZC1"
+        },
+        {"title": "Module 2: Advanced Topics",
+         "video_link": "https://www.youtube.com/embed/CnGJggO6_l4?si=77x5CVLsDw-C2xMM"
+        }
       ]
     },
     {
@@ -52,20 +70,27 @@
       "Course_pic": "https://i.ibb.co/JyNDnWV/4.jpg",
       "Instructor_name": "Instructor 4",
       "Instructor_pic": "https://i.ibb.co/n7mwWwS/2.jpg",
+      "default_video_link": "https://www.youtube.com/embed/UESRAGLV6vk?si=YKO-L-9PVPdloXoN",
       "Category": "Category 3",
       "price": 69.99,
       "rating": 4.9,
       "Course_details": "Pellentesque euismod quam id quam semper, sit amet pharetra odio vulputate.",
       "Course_syllabus": [
-        "Introduction to Course 2",
-        "Module 1: Basics",
-        "Module 2: Advanced Techniques",
-        "Module 3: Practical Applications"
+        {"title": "Introduction to the Course",
+         "video_link": "https://www.youtube.com/embed/13UZJbaVSSE?si=vuqbszb4ETG85-R6"
+        },
+        {"title": "Module 1: Getting Started",
+         "video_link": "https://www.youtube.com/embed/S5gcMwh8ayI?si=rsSwTHEldzFGeZC1"
+        },
+        {"title": "Module 2: Advanced Topics",
+         "video_link": "https://www.youtube.com/embed/CnGJggO6_l4?si=77x5CVLsDw-C2xMM"
+        }
       ]
     },
     {
       "Course_name": "Course 5",
       "Course_pic": "https://i.ibb.co/CtF9sf8/5.jpg",
+      "default_video_link": "https://www.youtube.com/embed/UESRAGLV6vk?si=YKO-L-9PVPdloXoN",
       "Instructor_name": "Instructor 5",
       "Instructor_pic": "https://i.ibb.co/nPp7QQf/5.jpg",
       "Category": "Category 2",
@@ -73,10 +98,15 @@
       "rating": 4.6,
       "Course_details": "Aenean non tellus nec metus auctor eleifend vel a est.",
       "Course_syllabus": [
-        "Introduction to the Course",
-        "Module 1: Getting Started",
-        "Module 2: Advanced Topics",
-        "Module 3: Final Project"
+        {"title": "Introduction to the Course",
+         "video_link": "https://www.youtube.com/embed/13UZJbaVSSE?si=vuqbszb4ETG85-R6"
+        },
+        {"title": "Module 1: Getting Started",
+         "video_link": "https://www.youtube.com/embed/S5gcMwh8ayI?si=rsSwTHEldzFGeZC1"
+        },
+        {"title": "Module 2: Advanced Topics",
+         "video_link": "https://www.youtube.com/embed/CnGJggO6_l4?si=77x5CVLsDw-C2xMM"
+        }
       ]
     },
     {
@@ -84,15 +114,21 @@
       "Course_pic": "https://i.ibb.co/8cCy2nk/6.jpg",
       "Instructor_name": "Instructor 6",
       "Instructor_pic": "https://i.ibb.co/q9ShhMc/6.jpg",
+      "default_video_link": "https://www.youtube.com/embed/UESRAGLV6vk?si=YKO-L-9PVPdloXoN",
       "Category": "Category 3",
       "price": 79.99,
       "rating": 4.7,
       "Course_details": "Quisque malesuada euismod tincidunt. Curabitur tincidunt, ex in aliquet.",
       "Course_syllabus": [
-        "Introduction to Course 2",
-        "Module 1: Basics",
-        "Module 2: Advanced Techniques",
-        "Module 3: Practical Applications"
+        {"title": "Introduction to the Course",
+         "video_link": "https://www.youtube.com/embed/13UZJbaVSSE?si=vuqbszb4ETG85-R6"
+        },
+        {"title": "Module 1: Getting Started",
+         "video_link": "https://www.youtube.com/embed/S5gcMwh8ayI?si=rsSwTHEldzFGeZC1"
+        },
+        {"title": "Module 2: Advanced Topics",
+         "video_link": "https://www.youtube.com/embed/CnGJggO6_l4?si=77x5CVLsDw-C2xMM"
+        }
       ]
     },
     {
@@ -100,15 +136,21 @@
       "Course_pic": "https://i.ibb.co/VH0G8bT/7.jpg",
       "Instructor_name": "Instructor 7",
       "Instructor_pic": "https://i.ibb.co/SvtKgt0/7.jpg",
+      "default_video_link": "https://www.youtube.com/embed/UESRAGLV6vk?si=YKO-L-9PVPdloXoN",
       "Category": "Category 1",
       "price": 49.99,
       "rating": 4.4,
       "Course_details": "Vestibulum nec tellus ut purus convallis efficitur. Maecenas a semper mauris.",
       "Course_syllabus": [
-        "Introduction to the Course",
-        "Module 1: Getting Started",
-        "Module 2: Advanced Topics",
-        "Module 3: Final Project"
+        {"title": "Introduction to the Course",
+         "video_link": "https://www.youtube.com/embed/13UZJbaVSSE?si=vuqbszb4ETG85-R6"
+        },
+        {"title": "Module 1: Getting Started",
+         "video_link": "https://www.youtube.com/embed/S5gcMwh8ayI?si=rsSwTHEldzFGeZC1"
+        },
+        {"title": "Module 2: Advanced Topics",
+         "video_link": "https://www.youtube.com/embed/CnGJggO6_l4?si=77x5CVLsDw-C2xMM"
+        }
       ]
     },
     {
@@ -116,15 +158,21 @@
       "Course_pic": "https://i.ibb.co/gy5HKHk/8.jpg",
       "Instructor_name": "Instructor 8",
       "Instructor_pic": "https://i.ibb.co/gdL6pPv/8.jpg",
+      "default_video_link": "https://www.youtube.com/embed/UESRAGLV6vk?si=YKO-L-9PVPdloXoN",
       "Category": "Category 2",
       "price": 64.99,
       "rating": 4.7,
       "Course_details": "Nulla euismod augue non libero pharetra, at fermentum neque auctor.",
       "Course_syllabus": [
-        "Introduction to Course 2",
-        "Module 1: Basics",
-        "Module 2: Advanced Techniques",
-        "Module 3: Practical Applications"
+        {"title": "Introduction to the Course",
+         "video_link": "https://www.youtube.com/embed/13UZJbaVSSE?si=vuqbszb4ETG85-R6"
+        },
+        {"title": "Module 1: Getting Started",
+         "video_link": "https://www.youtube.com/embed/S5gcMwh8ayI?si=rsSwTHEldzFGeZC1"
+        },
+        {"title": "Module 2: Advanced Topics",
+         "video_link": "https://www.youtube.com/embed/CnGJggO6_l4?si=77x5CVLsDw-C2xMM"
+        }
       ]
     },
     {
@@ -132,15 +180,20 @@
       "Course_pic": "https://i.ibb.co/tHgrY0c/9.jpg",
       "Instructor_name": "Instructor 9",
       "Instructor_pic": "https://i.ibb.co/ydgFVVJ/9.jpg",
+      "default_video_link": "https://www.youtube.com/embed/UESRAGLV6vk?si=YKO-L-9PVPdloXoN",
       "Category": "Category 3",
       "price": 74.99,
       "rating": 4.8,
-      "Course_details": "Praesent efficitur quam ut enim facilisis, id dignissim augue vestibulum.",
       "Course_syllabus": [
-        "Introduction to the Course",
-        "Module 1: Getting Started",
-        "Module 2: Advanced Topics",
-        "Module 3: Final Project"
+        {"title": "Introduction to the Course",
+         "video_link": "https://www.youtube.com/embed/13UZJbaVSSE?si=vuqbszb4ETG85-R6"
+        },
+        {"title": "Module 1: Getting Started",
+         "video_link": "https://www.youtube.com/embed/S5gcMwh8ayI?si=rsSwTHEldzFGeZC1"
+        },
+        {"title": "Module 2: Advanced Topics",
+         "video_link": "https://www.youtube.com/embed/CnGJggO6_l4?si=77x5CVLsDw-C2xMM"
+        }
       ]
     },
     {
@@ -148,15 +201,21 @@
       "Course_pic": "https://i.ibb.co/ZJ2S39M/10.jpg",
       "Instructor_name": "Instructor 10",
       "Instructor_pic": "https://i.ibb.co/zr1bLSc/10.jpg",
+      "default_video_link": "https://www.youtube.com/embed/UESRAGLV6vk?si=YKO-L-9PVPdloXoN",
       "Category": "Category 1",
       "price": 59.99,
       "rating": 4.6,
       "Course_details": "Ut non augue efficitur, efficitur eros sed, tempus velit.",
       "Course_syllabus": [
-        "Introduction to Course 2",
-        "Module 1: Basics",
-        "Module 2: Advanced Techniques",
-        "Module 3: Practical Applications"
+        {"title": "Introduction to the Course",
+         "video_link": "https://www.youtube.com/embed/13UZJbaVSSE?si=vuqbszb4ETG85-R6"
+        },
+        {"title": "Module 1: Getting Started",
+         "video_link": "https://www.youtube.com/embed/S5gcMwh8ayI?si=rsSwTHEldzFGeZC1"
+        },
+        {"title": "Module 2: Advanced Topics",
+         "video_link": "https://www.youtube.com/embed/CnGJggO6_l4?si=77x5CVLsDw-C2xMM"
+        }
       ]
     }
   ]
